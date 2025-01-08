@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/back_main"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/icono" />
+
+    <EditText
+        android:id="@+id/textNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu número"
+        android:textColorHint="@color/white"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/botonAdivinar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adivinar"/>
+
+    <TextView
+        android:id="@+id/viewMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comienza a jugar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="16sp"/>
+
+    <TextView
+        android:id="@+id/viewIntentosRestantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:text="Intentos restantes: 5"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/botonReiniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar Juego"
+        android:textColor="@color/white"
+        android:visibility="gone"/> <!-- Invisible al principio-->
+
+
+
+</LinearLayout>
