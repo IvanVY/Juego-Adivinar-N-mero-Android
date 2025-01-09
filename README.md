@@ -28,7 +28,7 @@ Este es un juego simple para dispositivos Android en el que el jugador tiene que
 
 1. Clona este repositorio en tu máquina local:
     ```bash
-    git clone https://github.com/tu_usuario/adivina-el-numero.git
+    git clone https://github.com/IvanVY/Juego-Adivinar-N-mero-Android.git
     ```
 
 2. Abre el proyecto en **Android Studio**.
